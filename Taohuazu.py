@@ -157,24 +157,24 @@ def Taohuazu():
     as_youma = 'http://taohuabt.cc/forum-220-1.html'
     us_youma = 'http://taohuabt.cc/forum-182-1.html'
     print('===============================================\n')
-    print('选项1:亚洲无码\n')
-    print('选项2:亚洲有码\n')
-    print('选项3:欧洲无码\n')
+    print('选项1:Asia Unlimited\n')
+    print('选项2:Asia has yards\n')
+    print('选项3:Europe Uncensored\n')
     print('选项4:下载图片和种子\n')
     print('选项5:退出\n')
     print('===============================================\n')
     cates = int(input('请输入你要爬取的类型:\n'))
     print('===============================================\n')
     if cates == 1:
-        print('正在爬取亚洲无码')
+        print('正在爬取Asia Unlimited')
         spider(as_wuma)
         print('完毕,仅供娱乐')
     elif cates == 2:
-        print('正在爬取亚洲有码')
+        print('正在爬取Asia has yards')
         spider(as_youma)
         print('完毕,仅供娱乐')
     elif cates == 3:
-        print('正在爬取欧洲无码')
+        print('正在爬取Europe Uncensored')
         spider(us_youma)
         print('完毕,仅供娱乐')
     elif cates == 4:
